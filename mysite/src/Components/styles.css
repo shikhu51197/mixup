@@ -1,0 +1,244 @@
+
+
+body{
+    font-family:monospace;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid rgba(0, 0, 255, 0.13);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    justify-content: space-around;
+    gap: 80px;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 100px;
+
+
+    position: relative;
+    z-index: 1;
+}
+
+.credit{
+   position: relative;
+    margin-left: 15%;
+}
+ .flex-div{
+    display: flex;
+    gap: 50px;
+}
+
+.block-div{
+    display: grid;
+margin-top: 8%;
+
+}
+
+.form{
+    width: 75%;
+    /* margin-left: 10%; */
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.mm input{
+    width: 94%;
+}
+input{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+  background: none;
+
+  transition: transform .2s;
+}
+
+.x{
+    border-bottom: 2px solid rgb(255, 27, 73); 
+}
+label{
+    font-size: 14px;
+}
+span{
+    color: rgb(255, 19, 66);
+}
+.submit-div{
+    text-align: center;
+    margin: auto;
+}
+
+
+.btn {
+    border: none;
+    background-color: rgb(255, 17, 65);
+    padding: 8px;
+    color: white;
+    border-radius: 9px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+.submit-btn{
+    border: none;
+    background-color: rgb(255, 17, 65);
+    padding: 8px;
+    color: white;
+    border-radius: 9px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+    margin-top: 20px;
+} 
+
+.user{
+    height: 20px;
+   margin-top: 5px;
+}
+.child{
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 27, 73);
+
+}
+
+
+/* credit card */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i');
+
+*{
+  box-sizing:border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+body, html{
+  margin:0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #162969;
+}
+
+
+.card{
+width: 320px;
+height: 190px;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  perspective:600px;
+  margin: auto;
+  margin-top: 30%;
+
+}
+.inputamount{
+ background-color: rgb(255, 27, 73);
+}
+.card__part{
+  box-shadow: 1px 1px #aaa3a3;
+    top: 0;
+  position: absolute;
+z-index: 1000;
+  left: 0;
+  display: inline-block;
+    width: 320px;
+    height: 190px;
+    background-image: url('https://in.images.search.yahoo.com/images/view;_ylt=Awrx_qJmHaNj8ckKQa69HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2VmMzFkYjQxNDcyZTNhMjA2NGU2YjBmOGVlODAxNDUyBGdwb3MDMTAEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dblank%2Bcredit%2Bcard%26ei%3DUTF-8%26type%3DE211IN885G0%26fr%3Dmcafee%26fr2%3Dp%253As%252Cv%253Ai%252Cm%253Asb-top%26tab%3Dorganic%26ri%3D10&w=612&h=456&imgurl=media.istockphoto.com%2Fphotos%2Fblank-credit-card-picture-id133573261%3Fk%3D6%26m%3D133573261%26s%3D612x612%26w%3D0%26h%3Dn_R90WqtkK_MB0Efque1emEsS1ty9Uym39IOw4F0zVU%3D&rurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblank-credit-card&size=+8.5KB&p=blank+credit+card&oid=ef31db41472e3a2064e6b0f8ee801452&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&fr=mcafee&tt=Blank+Credit+Card+Stock+Photos%2C+Pictures+%26+Royalty-Free+Images+-+iStock&b=0&ni=180&no=10&ts=&tab=organic&sigr=4mA4yWlerGko&sigb=W0oGt3eWFfv4&sigi=JdFYH4Eh88mA&sigt=wj28.N2WImzh&.crumb=LNzab/0a841&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&type=E211IN885G0'), linear-gradient(to right bottom, #fd696b, #fa616e, #f65871, #f15075, #ec4879); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.card__front-square{
+   margin-top: 20px;
+}
+.card__front{
+  padding: 18px;
+
+}
+
+.card__logo {
+    height: 16px;
+}
+
+.card__front-logo{
+      position: absolute;
+    top: 18px;
+    right: 18px;
+}
+.card__square {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.card_numer {
+    display: block;
+    width: 100%;
+    word-spacing: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.card__space-75 {
+    width: 55%;
+    float: left;
+}
+
+.card__space-25 {
+    width: 20%;
+    float: left;
+}
+
+.card__label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+    
+}
+
+.card__info {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.back{
+    margin-top: 12%;
+    margin-left: 10%;
+    /* box-shadow: 1px 1px #aaa3a3; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+  /* position: absolute; */
+z-index: 1000;
+  left: 0;
+  display: inline-block;
+    width: 320px;
+    height: 190px;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.-pzDkw3PCxGNf99EFMVPBQAAAA&pid=Api&P=0'), linear-gradient(to right bottom, #4949496b, #52525253, #5d5d5d4a, #5454546f, #3838384d); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 1px;
+}
+.nec{
+    display: flex;
+    justify-content: space-between;
+}
